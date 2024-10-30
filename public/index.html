@@ -8,18 +8,42 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body class="mx-20">
-  <div class="mt-8 bg-gray-900">
-    <div class="block px-4 py-2 bg-gray-500">1</div>
-    <div class="inline px-4 py-2 bg-gray-500 mt-2">2</div>
-    <div class="inline-block px-4 py-2 bg-gray-500 mt-2">3</div>
-    <div class="hidden px-4 py-2 bg-gray-500 mt-2">4</div>
+<body>
+
+  <div class="mb-8 mt-4 sm:flex sm:justify-center">
+    <button class="bg-blue-500 text-blue-100 w-full sm:w-auto  py-2 px-4 rounded">
+      Botón
+    </button>
   </div>
 
-  <div class="h-64 flex justify-center items-end p-8 my-8 bg-gray-800">
-    <div class="order-10 px-4 py-2 m-2 bg-gray-300">1</div>
-    <div class="order-1 px-4 py-2 m-2 bg-gray-300">2</div>
-    <div class="order-2 px-4 py-2 m-2 bg-gray-300">3</div>
+  <div class="my-8 flex justify-center w-auto">
+    <button class="bg-blue-500 text-white mx-auto px-4 py-2 rounded">Botón 1</button>
+    <button class="bg-blue-500 text-white mx-auto px-4 py-2 rounded">Botón 2</button>
+    <button class="bg-blue-500 text-white mx-auto px-4 py-2 rounded">Botón 3</button>
+  </div>
+
+  <div class="my-8 flex justify-center w-auto">
+    <button class="bg-blue-300 text-blue-700 hover:bg-blue-500 hover:text-white px-4 py-2 rounded">
+      Botón con Hover
+    </button>
+  </div>
+
+  <div>
+    <div class="alert">
+      Este mensaje es una alerta default.
+    </div>
+
+    <div class="alert alert-danger">
+      Este mensaje es una alerta danger.
+    </div>
+
+    <div class="alert alert-warning">
+      Este mensaje es una alerta warning.
+    </div>
+
+    <div class="alert alert-info">
+      Este mensaje es una alerta info.
+    </div>
   </div>
 
 </body>
