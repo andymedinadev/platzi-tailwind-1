@@ -11,7 +11,7 @@
 }
 
 .btn {
-  @apply py-1 px-4 rounded shadow-xl block mx-auto bg-gray-500;
+  @apply py-1 px-4 rounded shadow-xl block bg-gray-500;
 }
 
 .btn:hover {
