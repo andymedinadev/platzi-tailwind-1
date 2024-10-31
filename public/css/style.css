@@ -499,8 +499,17 @@ video {
 [hidden]:where(:not([hidden="until-found"])) {
   display: none;
 }
+.fixed {
+  position: fixed;
+}
 .relative {
   position: relative;
+}
+.sticky {
+  position: sticky;
+}
+.z-10 {
+  z-index: 10;
 }
 .mx-2 {
   margin-left: 0.5rem;
