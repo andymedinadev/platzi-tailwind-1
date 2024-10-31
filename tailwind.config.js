@@ -6,6 +6,12 @@ module.exports = {
       colors:{
         'primary':'#F3C614',
         'secondary':'#353535'
+      },
+      backgroundImage:{
+        'restaurant':"url('../images/restaurant.jpg')"
+      },
+      height:{
+        '100':'25rem'
       }
     },
   },
